@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --bg: #f8fafc; --card:#fff; --muted:#6b7280; }
+.dark { --bg:#071023; --card:#0b1220; --muted:#9ca3af; }
+
+html,body,#root { height:100%; }
+body { background: var(--bg); color: #0f1724; font-family: Inter, system-ui, -apple-system; transition: background 200ms; }
+.dark body { color: #e6eef8; }
+.container { max-width: 1100px; margin: 0 auto; padding: 1.25rem; }
